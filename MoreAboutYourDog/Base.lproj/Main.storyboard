@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MoreAboutYourDog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dogs_Labrador_Retriever_Retriever_Gray_background_526561_1080x1920" translatesAutoresizingMaskIntoConstraints="NO" id="xK0-3s-R89">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RqG-Se-Gzm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="dogCell" rowHeight="100" id="tKZ-m0-lss" customClass="DogTableViewCell" customModule="MoreAboutYourDog" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tKZ-m0-lss" id="y6i-pO-OLS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="german-shepard" translatesAutoresizingMaskIntoConstraints="NO" id="Aya-kz-cAN">
+                                                    <rect key="frame" x="5" y="0.0" width="100" height="100"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="100" id="DtQ-hf-x03"/>
+                                                        <constraint firstAttribute="width" constant="100" id="Xuy-K4-5nq"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fP8-gz-nli">
+                                                    <rect key="frame" x="110" y="16" width="255" height="78"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fP8-gz-nli" firstAttribute="trailing" secondItem="y6i-pO-OLS" secondAttribute="trailingMargin" constant="5" id="8vA-eo-TAt"/>
+                                                <constraint firstItem="fP8-gz-nli" firstAttribute="top" secondItem="y6i-pO-OLS" secondAttribute="topMargin" constant="5" id="exc-EM-f32"/>
+                                                <constraint firstItem="Aya-kz-cAN" firstAttribute="centerY" secondItem="y6i-pO-OLS" secondAttribute="centerY" id="oeT-if-bfC"/>
+                                                <constraint firstItem="fP8-gz-nli" firstAttribute="leading" secondItem="Aya-kz-cAN" secondAttribute="trailing" constant="5" id="r7j-zN-2sI"/>
+                                                <constraint firstItem="fP8-gz-nli" firstAttribute="bottom" secondItem="y6i-pO-OLS" secondAttribute="bottomMargin" constant="5" id="tIJ-ap-yey"/>
+                                                <constraint firstItem="Aya-kz-cAN" firstAttribute="leading" secondItem="y6i-pO-OLS" secondAttribute="leading" constant="5" id="ytO-Jg-wHm"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="dogLbl" destination="fP8-gz-nli" id="4GF-u0-gAh"/>
+                                            <outlet property="dogViewImage" destination="Aya-kz-cAN" id="lQ9-vL-hrF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RqG-Se-Gzm" secondAttribute="bottom" id="EZo-pw-s70"/>
+                            <constraint firstItem="RqG-Se-Gzm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="RmH-6O-wPD"/>
+                            <constraint firstItem="xK0-3s-R89" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="XeL-kR-vh4"/>
+                            <constraint firstItem="xK0-3s-R89" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XzB-ga-HEW"/>
+                            <constraint firstItem="RqG-Se-Gzm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eVu-IH-Gzy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xK0-3s-R89" secondAttribute="trailing" id="g00-2t-ps4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xK0-3s-R89" secondAttribute="bottom" id="k2b-QE-WzQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RqG-Se-Gzm" secondAttribute="trailing" id="yCa-uU-jay"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="RqG-Se-Gzm" id="UEj-15-qvX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Dogs_Labrador_Retriever_Retriever_Gray_background_526561_1080x1920" width="1080" height="1920"/>
+        <image name="german-shepard" width="900" height="506"/>
+    </resources>
+</document>
