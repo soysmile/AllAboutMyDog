@@ -142,23 +142,23 @@
             },
             {
             "name_ru": "Босерон",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
+            "name_en": "test",
+            "descr_ru": "test",
+            "descr_en": "test",
             "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1487578740_beauceron.jpg"
             },
             {
             "name_ru": "Бостон-терьер",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
+            "name_en": "test",
+            "descr_ru": "test",
+            "descr_en": "test",
             "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1481395289_boston-terrier-dog.jpg"
             },
             {
             "name_ru": "Брюссельский гриффон",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
+            "name_en": "test",
+            "descr_ru": "test",
+            "descr_en": "test",
             "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1483699196_brussels-griffon-dog.jpg"
             },
             {
@@ -629,76 +629,6 @@
             "descr_ru": "",
             "descr_en": "",
             "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1485020178_japanese-chin-dog.jpg"
-            },
-            {
-            "name_ru": "",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
-            "imageUrl": ""
-            },
-            {
-            "name_ru": "",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
-            "imageUrl": ""
-            },
-            {
-            "name_ru": "",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
-            "imageUrl": ""
-            },
-            {
-            "name_ru": "",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
-            "imageUrl": ""
-            },
-            {
-            "name_ru": "",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
-            "imageUrl": ""
-            },
-            {
-            "name_ru": "",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
-            "imageUrl": ""
-            },
-            {
-            "name_ru": "",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
-            "imageUrl": ""
-            },
-            {
-            "name_ru": "",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
-            "imageUrl": ""
-            },
-            {
-            "name_ru": "",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
-            "imageUrl": ""
-            },
-            {
-            "name_ru": "",
-            "name_en": "",
-            "descr_ru": "",
-            "descr_en": "",
-            "imageUrl": ""
             }
     ]
     
