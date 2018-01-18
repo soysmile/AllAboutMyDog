@@ -56,8 +56,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         cell.dogLbl?.text = test[indexPath.row].name_ru?.capitalized
         cell.dogViewImage.downloadImg(from: (test[indexPath.row].imageUrl)!)
-        //cell.imgView.downloadImg(from: (self.articles?[indexPath.item].imageUrl)!)
-        
+    
         cell.cellView.layer.cornerRadius = cell.cellView.frame.height / 2
         cell.dogViewImage.layer.cornerRadius = cell.dogViewImage.frame.height / 2
         cell.backgroundColor = .clear
