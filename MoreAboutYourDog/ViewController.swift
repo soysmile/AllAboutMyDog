@@ -40,6 +40,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             do{
                 let courses = try JSONDecoder().decode(info.self, from: data)
                 self.test = courses.dogs
+                print(self.test)
+                print("---------")
+                
             }
             catch{
                 print("error")
@@ -48,6 +51,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print(test.count)
         return test.count
     }
 
