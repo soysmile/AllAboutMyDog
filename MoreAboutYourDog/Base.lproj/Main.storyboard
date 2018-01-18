@@ -123,8 +123,8 @@
                                     <constraint firstAttribute="height" constant="232" id="xcl-Nm-gPv"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFS-uA-yup">
-                                <rect key="frame" x="16" y="240" width="343" height="407"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFS-uA-yup">
+                                <rect key="frame" x="0.0" y="232" width="375" height="435"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -133,17 +133,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="IFS-uA-yup" firstAttribute="top" secondItem="CVU-ot-3lv" secondAttribute="bottom" constant="8" id="1BI-Rz-LJ4"/>
                             <constraint firstItem="CVU-ot-3lv" firstAttribute="trailing" secondItem="lFF-F0-wWJ" secondAttribute="trailing" id="1Bq-RJ-kzV"/>
                             <constraint firstItem="CVU-ot-3lv" firstAttribute="top" secondItem="XbV-r2-ono" secondAttribute="top" id="3eD-Kz-tBP"/>
-                            <constraint firstItem="lFF-F0-wWJ" firstAttribute="trailing" secondItem="IFS-uA-yup" secondAttribute="trailing" constant="16" id="6XZ-4y-yrP"/>
                             <constraint firstItem="jV9-sg-TaS" firstAttribute="top" secondItem="XbV-r2-ono" secondAttribute="top" id="Epd-b5-oTi"/>
+                            <constraint firstItem="lFF-F0-wWJ" firstAttribute="bottom" secondItem="IFS-uA-yup" secondAttribute="bottom" id="Izp-Qq-0mD"/>
+                            <constraint firstItem="IFS-uA-yup" firstAttribute="leading" secondItem="lFF-F0-wWJ" secondAttribute="leading" id="Jei-Bc-UCP"/>
                             <constraint firstItem="jV9-sg-TaS" firstAttribute="trailing" secondItem="lFF-F0-wWJ" secondAttribute="trailing" id="LPc-OT-yVF"/>
+                            <constraint firstItem="IFS-uA-yup" firstAttribute="top" secondItem="CVU-ot-3lv" secondAttribute="bottom" id="UHP-Se-4RM"/>
                             <constraint firstItem="jV9-sg-TaS" firstAttribute="leading" secondItem="lFF-F0-wWJ" secondAttribute="leading" id="eht-A8-9bM"/>
                             <constraint firstItem="jV9-sg-TaS" firstAttribute="bottom" secondItem="lFF-F0-wWJ" secondAttribute="bottom" id="ftV-WM-fxq"/>
-                            <constraint firstItem="lFF-F0-wWJ" firstAttribute="bottom" secondItem="IFS-uA-yup" secondAttribute="bottom" constant="20" id="hAb-Un-IrH"/>
                             <constraint firstItem="CVU-ot-3lv" firstAttribute="leading" secondItem="lFF-F0-wWJ" secondAttribute="leading" id="mdr-kb-Zz5"/>
-                            <constraint firstItem="IFS-uA-yup" firstAttribute="leading" secondItem="lFF-F0-wWJ" secondAttribute="leading" constant="16" id="zyo-U3-mq2"/>
+                            <constraint firstItem="lFF-F0-wWJ" firstAttribute="trailing" secondItem="IFS-uA-yup" secondAttribute="trailing" id="pN1-7B-4Si"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lFF-F0-wWJ"/>
                     </view>
