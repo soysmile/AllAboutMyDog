@@ -9,7 +9,7 @@
 import UIKit
 
 struct info : Decodable {
-    let dogs : dogs?
+    let dogs : [dogs]
 }
 struct dogs : Decodable{
     let name_ru : String
@@ -25,34 +25,27 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        dogListOnline()
         
-        let url = "https://raw.githubusercontent.com/dariusk/corpora/master/data/animals/dogs.json"
-        guard let urlPath = URL(string: url) else {return}
-        URLSession.shared.dataTask(with: urlPath) { (data, response, error) in
-            guard let data = data else{return}
-            guard error == nil else {return}
-            do{
-                let one = try JSONDecoder().decode(info.self, from: data)
-                print(one)
-            }
-            catch{
-                print("error")
-            }
-        }
         
         tableView.delegate = self
         tableView.dataSource = self
     }
 
-    func dogList(){
+    
+    func dogListOnline(){
         
-        let path = Bundle.main.path(forResource: "dogs", ofType: "json")
-        let url = URL(fileURLWithPath: path!)
-        
-        URLSession.shared.dataTask(with: url) { (data, response, error) in
-            
-            
-            let test = try JSONDecoder().decode(info.self, from: data)
+        let url = "http://raw.githubusercontent.com/soysmile/AllAboutMyDog/master/MoreAboutYourDog/dogs.json"
+        guard let urlPath = URL(string: url) else {return}
+        URLSession.shared.dataTask(with: urlPath) { (data, response, error) in
+            guard let data = data else{return}
+            do{
+                let one = try JSONDecoder().decode([info].self, from: data)
+                print(one)
+            }
+            catch{
+                print("error")
+            }
         }
        
     }

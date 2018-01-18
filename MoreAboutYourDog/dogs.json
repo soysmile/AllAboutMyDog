@@ -1,17 +1,20 @@
 {
-    "dogs":
-    [
+    "dogs":[
+            {
+            
              "name_ru": "Немецкая овчарка",
              "name_en": "German shepard",
              "descr_ru": "описание",
-             "descr_en": "description",
-    ],
-    [
-     "name_ru": "Немецкая овчарка 2",
-     "name_en": "German shepard 2",
-     "descr_ru": "описание 2",
-     "descr_en": "description 2",
-     ]
+             "descr_en": "description"
+            },
+            {
+             "name_ru": "Немецкая овчарка 2",
+             "name_en": "German shepard 2",
+             "descr_ru": "описание 2",
+             "descr_en": "description 2"
+            }
+    ]
+    
     
 }
 
