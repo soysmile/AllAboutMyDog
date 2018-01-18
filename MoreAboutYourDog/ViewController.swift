@@ -53,9 +53,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "dogCell") as! DogTableViewCell
+        
+        cell.dogLbl?.text = test[indexPath.row].name_ru?.capitalized
+        cell.dogViewImage.downloadImg(from: (test[indexPath.row].imageUrl)!)
+        //cell.imgView.downloadImg(from: (self.articles?[indexPath.item].imageUrl)!)
+        
         cell.cellView.layer.cornerRadius = cell.cellView.frame.height / 2
         cell.dogViewImage.layer.cornerRadius = cell.dogViewImage.frame.height / 2
-        cell.dogLbl?.text = test[indexPath.row].name_ru?.capitalized
         cell.backgroundColor = .clear
         cell.cellView.backgroundColor = UIColor(white: 0, alpha: 0.75)
         return cell
@@ -66,3 +70,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 }
 
+//required App Transport Security Settings
+extension UIImageView{
+    func downloadImg(from url: String){
+        
+        let urlRequest = URLRequest(url: URL(string: url)!)
+        
+        let task = URLSession.shared.dataTask(with: urlRequest) { (data,response,error) in
+            
+            if error != nil{
+                print(error)
+                return
+            }
+            
+            DispatchQueue.main.async {
+                self.image = UIImage(data: data!)
+            }
+        }
+        task.resume()
+    }
+}

@@ -16,4 +16,5 @@ struct testing : Decodable{
     let name_en : String?
     let descr_ru : String?
     let descr_en : String?
+    let imageUrl : String?
 }

@@ -1,7 +1,6 @@
 {
     "dogs":[
             {
-            
              "name_ru": "Австралийская овчарка",
              "name_en": "German shepard",
              "descr_ru": "описание",
@@ -140,6 +139,566 @@
             "descr_ru": "описание 2",
             "descr_en": "description 2",
             "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1481827820_dogue-de-bordeaux-dog.jpg"
+            },
+            {
+            "name_ru": "Босерон",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1487578740_beauceron.jpg"
+            },
+            {
+            "name_ru": "Бостон-терьер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1481395289_boston-terrier-dog.jpg"
+            },
+            {
+            "name_ru": "Брюссельский гриффон",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1483699196_brussels-griffon-dog.jpg"
+            },
+            {
+            "name_ru": "Бульмастиф",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1485008150_bullmastiff-dog.jpg"
+            },
+            {
+            "name_ru": "Бультерьер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1482321201_bull-terrier-dog.jpg"
+            },
+            {
+            "name_ru": "Веймаранер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1483610204_weimaraner-dog.jpg"
+            },
+            {
+            "name_ru": "Вельш-корги",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480769027_welsh-corgi-dog.jpg"
+            },
+            {
+            "name_ru": "Вест хайленд уайт терьер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480752938_west-highland-white-terrier-dog.jpg"
+            },
+            {
+            "name_ru": "Волкособ",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1487580712_wolfdog.jpg"
+            },
+            {
+            "name_ru": "Восточно-европейская овчарка",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1487585572_east-european-shepherd.jpg"
+            },
+            {
+            "name_ru": "Грейхаунд",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1485071223_greyhound-dog.jpg"
+            },
+            {
+            "name_ru": "Далматин",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1481744039_dalmatian-dog.jpg"
+            },
+            {
+            "name_ru": "Джек Рассел терьер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1481620386_jack-russell-terrier-dog.jpg"
+            },
+            {
+            "name_ru": "Доберман пинчер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480615070_doberman-dog.jpg"
+            },
+            {
+            "name_ru": "Дратхаар",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1482514136_drathaar-dog.jpg"
+            },
+            {
+            "name_ru": "Золотистый ретривер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1482860840_golden-retriever-dog.jpg"
+            },
+            {
+            "name_ru": "Ирландский волкодав",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480777488_irish-wolfhound-dog.jpg"
+            },
+            {
+            "name_ru": "Ирландский сеттер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1483030068_irish-setter-dog.jpg"
+            },
+            {
+            "name_ru": "Йоркширский терьер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480458421_yorkshire-terrier.jpg"
+            },
+            {
+            "name_ru": "Ка де Бо",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1475739538_ca-de-bou.jpg"
+            },
+            {
+            "name_ru": "Кавалер кинг чарльз спаниель",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1474994710_cavalier-king-charles-spaniel.jpg"
+            },
+            {
+            "name_ru": "Кавказская овчарка",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1482341567_caucasian-ovcharka-dog.jpg"
+            },
+            {
+            "name_ru": "Кане корсо",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480964348_cane-corso-dog.jpg"
+            },
+            {
+            "name_ru": "Карликовый пинчер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1482336503_miniature-pinscher-do.jpg"
+            },
+            {
+            "name_ru": "Китайская хохлатая",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1485082591_chinese-crested-dog.jpg"
+            },
+            {
+            "name_ru": "Кокер спаниель",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1482518382_cocker-spaniel-dog.jpg"
+            },
+            {
+            "name_ru": "Колли",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1482926860_collie-dog.jpg"
+            },
+            {
+            "name_ru": "Курцхаар",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1484753368_german-shorthaired-pointer-dog.jpg"
+            },
+            {
+            "name_ru": "Лабрадор-ретривер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1483456133_labrador-retriever-dog.jpg"
+            },
+            {
+            "name_ru": "Левретка",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1485076074_levretka-dog.jpg"
+            },
+            {
+            "name_ru": "Леонбергер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480925948_leonberger-dog.jpg"
+            },
+            {
+            "name_ru": "Мальтийская болонка",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1483630457_maltese-dog.jpg"
+            },
+            {
+            "name_ru": "Мопс",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480462125_pug.jpg"
+            },
+            {
+            "name_ru": "Московская сторожевая",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1471953111_moscow-watchdog.jpg"
+            },
+            {
+            "name_ru": "Немецкий дог",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480766380_great-dane-dog.jpg"
+            },
+            {
+            "name_ru": "Немецкий ягдтерьер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1493059578_german-jagdterrier.jpg"
+            },
+            {
+            "name_ru": "Ньюфаундленд",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1485017025_newfoundlan-dog.jpg"
+            },
+            {
+            "name_ru": "Папильон",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1482867522_papillon-dog.jpg"
+            },
+            {
+            "name_ru": "Пекинес",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480601020_pekingese.jpg"
+            },
+            {
+            "name_ru": "Померанский шпиц",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480941118_pomeranian-dog.jpg"
+            },
+            {
+            "name_ru": "Пудель",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1481747430_poodle-dog.jpg"
+            },
+            {
+            "name_ru": "Ризеншнауцер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1484763712_giant-schnauzer-dog.jpg"
+            },
+            {
+            "name_ru": "Родезийский риджбек",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1483552484_rhodesian-ridgebac-dog.jpg"
+            },
+            {
+            "name_ru": "Ротвейлер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1481739294_rottweiler-dog.jpg"
+            },
+            {
+            "name_ru": "Русская борзая",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1485027753_russian-borzoi-dog.jpg"
+            },
+            {
+            "name_ru": "Русская гончая",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1473788890_russkaya-gonchaya.jpg"
+            },
+            {
+            "name_ru": "Русский охотничий спаниель",
+            "name_en": "http://dogcatfan.com/uploads/posts/medium/1471774012_russian_spaniel.jpg",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": ""
+            },
+            {
+            "name_ru": "Русский той-терьер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1483538766_russkiy-toy-terrier-dog.jpg"
+            },
+            {
+            "name_ru": "Русский черный терьер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1484656045_black-russian-terrier-dog.jpg"
+            },
+            {
+            "name_ru": "Cамоедская лайка",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1485022278_samoyed-dog.jpg"
+            },
+            {
+            "name_ru": "Сенбернар",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1483704590_saint-bernard-dog.jpg"
+            },
+            {
+            "name_ru": "Сиба-ину",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1483550019_shiba-inu-dog.jpg"
+            },
+            {
+            "name_ru": "Сибирский хаски",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1481207236_siberian-husky-dog.jpg"
+            },
+            {
+            "name_ru": "Стаффордширский бультерьер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1485086423_staffordshire-bull-terrier-dog.jpg"
+            },
+            {
+            "name_ru": "Такса",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480596675_dachshund.jpg"
+            },
+            {
+            "name_ru": "Тибетский мастиф",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1481466228_tibetan-mastiff-dog.jpg"
+            },
+            {
+            "name_ru": "Уиппет",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1485080013_whippet-dog.jpg"
+            },
+            {
+            "name_ru": "Фокстерьер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1483522036_fox-terrier-dog.jpg"
+            },
+            {
+            "name_ru": "Французский бульдог",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480942415_french-bulldog-dog.jpg"
+            },
+            {
+            "name_ru": "Цвергшнауцер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1465196592_cvergshnaucer.jpg"
+            },
+            {
+            "name_ru": "Чау-чау",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1483435818_chow-chow-dog.jpg"
+            },
+            {
+            "name_ru": "Чихуахуа",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1480441078_chihuahua.jpg"
+            },
+            {
+            "name_ru": "Шарпей",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1482941246_chinese-shar-pei-dog.jpg"
+            },
+            {
+            "name_ru": "Шелти",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1482932641_shetland-sheepdog-dog.jpg"
+            },
+            {
+            "name_ru": "Ши-тцу",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1481703947_shih-tzu-dog.jpg"
+            },
+            {
+            "name_ru": "Шнауцер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1474648666_schnauzers.jpg"
+            },
+            {
+            "name_ru": "Эрдельтерьер",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1484761414_airedale-terrier-dog.jpg"
+            },
+            {
+            "name_ru": "Эстонская гончая",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1477580890_estonian-hound.jpg"
+            },
+            {
+            "name_ru": "Южноафриканский бурбуль",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1475838497_boerboel.jpg"
+            },
+            {
+            "name_ru": "Японский хин",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": "http://dogcatfan.com/uploads/posts/medium/1485020178_japanese-chin-dog.jpg"
+            },
+            {
+            "name_ru": "",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": ""
+            },
+            {
+            "name_ru": "",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": ""
+            },
+            {
+            "name_ru": "",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": ""
+            },
+            {
+            "name_ru": "",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": ""
+            },
+            {
+            "name_ru": "",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": ""
+            },
+            {
+            "name_ru": "",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": ""
+            },
+            {
+            "name_ru": "",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": ""
+            },
+            {
+            "name_ru": "",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": ""
+            },
+            {
+            "name_ru": "",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": ""
+            },
+            {
+            "name_ru": "",
+            "name_en": "",
+            "descr_ru": "",
+            "descr_en": "",
+            "imageUrl": ""
             }
     ]
     
