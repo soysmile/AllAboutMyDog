@@ -10,6 +10,7 @@ import UIKit
 
 class DogTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var cellView: UIView!
     @IBOutlet weak var dogLbl: UILabel!
     @IBOutlet weak var dogViewImage: UIImageView!
     override func awakeFromNib() {
