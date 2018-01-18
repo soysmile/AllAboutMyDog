@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zUG-Py-GwP">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -23,8 +23,7 @@
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RqG-Se-Gzm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="sectionIndexBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="dogCell" rowHeight="100" id="tKZ-m0-lss" customClass="DogTableViewCell" customModule="MoreAboutYourDog" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
@@ -97,16 +96,87 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Alz-Pk-u6J"/>
                     <connections>
                         <outlet property="tableView" destination="RqG-Se-Gzm" id="UEj-15-qvX"/>
+                        <segue destination="tHK-Wz-Zgx" kind="show" identifier="toDogView" id="eVn-oJ-eyH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+            <point key="canvasLocation" x="711.20000000000005" y="33.733133433283363"/>
+        </scene>
+        <!--Dog Display View Controller-->
+        <scene sceneID="LwW-3H-PsE">
+            <objects>
+                <viewController id="tHK-Wz-Zgx" customClass="DogDisplayViewController" customModule="MoreAboutYourDog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XbV-r2-ono">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7" translatesAutoresizingMaskIntoConstraints="NO" id="jV9-sg-TaS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CVU-ot-3lv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="232"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="232" id="xcl-Nm-gPv"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFS-uA-yup">
+                                <rect key="frame" x="16" y="240" width="343" height="407"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IFS-uA-yup" firstAttribute="top" secondItem="CVU-ot-3lv" secondAttribute="bottom" constant="8" id="1BI-Rz-LJ4"/>
+                            <constraint firstItem="CVU-ot-3lv" firstAttribute="trailing" secondItem="lFF-F0-wWJ" secondAttribute="trailing" id="1Bq-RJ-kzV"/>
+                            <constraint firstItem="CVU-ot-3lv" firstAttribute="top" secondItem="XbV-r2-ono" secondAttribute="top" id="3eD-Kz-tBP"/>
+                            <constraint firstItem="lFF-F0-wWJ" firstAttribute="trailing" secondItem="IFS-uA-yup" secondAttribute="trailing" constant="16" id="6XZ-4y-yrP"/>
+                            <constraint firstItem="jV9-sg-TaS" firstAttribute="top" secondItem="XbV-r2-ono" secondAttribute="top" id="Epd-b5-oTi"/>
+                            <constraint firstItem="jV9-sg-TaS" firstAttribute="trailing" secondItem="lFF-F0-wWJ" secondAttribute="trailing" id="LPc-OT-yVF"/>
+                            <constraint firstItem="jV9-sg-TaS" firstAttribute="leading" secondItem="lFF-F0-wWJ" secondAttribute="leading" id="eht-A8-9bM"/>
+                            <constraint firstItem="jV9-sg-TaS" firstAttribute="bottom" secondItem="lFF-F0-wWJ" secondAttribute="bottom" id="ftV-WM-fxq"/>
+                            <constraint firstItem="lFF-F0-wWJ" firstAttribute="bottom" secondItem="IFS-uA-yup" secondAttribute="bottom" constant="20" id="hAb-Un-IrH"/>
+                            <constraint firstItem="CVU-ot-3lv" firstAttribute="leading" secondItem="lFF-F0-wWJ" secondAttribute="leading" id="mdr-kb-Zz5"/>
+                            <constraint firstItem="IFS-uA-yup" firstAttribute="leading" secondItem="lFF-F0-wWJ" secondAttribute="leading" constant="16" id="zyo-U3-mq2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lFF-F0-wWJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="dogViewDescription" destination="IFS-uA-yup" id="hKO-zu-oVb"/>
+                        <outlet property="dogViewImage" destination="CVU-ot-3lv" id="Xht-ic-4H1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YfN-IE-TEa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1631.2" y="33.733133433283363"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ec2-Pk-BLu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zUG-Py-GwP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0PX-xI-jAu">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="5vg-K1-chk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CA1-cT-Tqh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46" y="34"/>
         </scene>
     </scenes>
     <resources>
+        <image name="7" width="1080" height="1920"/>
         <image name="Dogs_Labrador_Retriever_Retriever_Gray_background_526561_1080x1920" width="1080" height="1920"/>
         <image name="german-shepard" width="900" height="506"/>
     </resources>
